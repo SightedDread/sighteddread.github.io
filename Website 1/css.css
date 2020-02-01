@@ -1,0 +1,79 @@
+body{
+    margin:0;
+}
+
+nav {
+    position:fixed;
+    top:0;
+    width:100%;
+    height: 64px;
+    background-color: brown;
+    text-align: center;
+    font-size: 3em;
+    line-height: 64px;
+    color: white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cheese{
+    color:black;
+}
+
+.buton {
+    display:block;
+    color: white;
+    margin-top: 100px;
+    width: 150px;
+    height: 60px;
+    background-color: blue;
+    font-size: 2em;
+    line-height: 60px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently */
+
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img{
+    display:block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.money{
+    background-image: url("images/money.jpg");
+}
+
+p{
+    background-color: white;
+}
+
+#steps{
+    background-color:rgb(0, 0, 0);
+    color: rgb(54, 2, 52);
+}
+
+.side-right{
+    right: 20px;
+    display: block;
+    float: right;
+}
+
+.side-left{
+    left: 20px;
+    display: inline-block;
+}
+
